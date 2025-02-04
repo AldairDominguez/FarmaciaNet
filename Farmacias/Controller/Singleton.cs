@@ -10,7 +10,7 @@ namespace Farmacias
     public class Singleton
     {
         private static readonly Singleton instance = new Singleton();
-        private readonly SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-BT1MBS2;initial catalog=farmacias;integrated security=true");
+        private readonly SqlConnection connection = new SqlConnection(@"Data Source=;initial catalog=farmacias;integrated security=true");
 
         static Singleton() { }
         private Singleton() { }
