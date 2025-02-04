@@ -13,8 +13,8 @@ namespace Farmacias.Service.Jwt
         private readonly string _smtpServer = "smtp.mailgun.org";
 
         private readonly int _smtpPort = 587;
-        private readonly string _smtpUser = "postmaster@sandboxa6f54468544c4b608eda516df11b44bd.mailgun.org";
-        private readonly string _smtpPass = "b7cf9373c13f94813a8338c562b4a06a-afce6020-1155f5a3";
+        private readonly string _smtpUser = "";
+        private readonly string _smtpPass = "";
 
         public async Task SendVerificationEmailAsync(string email, string token)
         {
